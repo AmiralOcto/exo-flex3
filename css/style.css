@@ -1,0 +1,34 @@
+header,footer {
+    background-color: blue;
+    border-radius: 7px;
+    height: 75px;
+}
+
+.container {
+    display: flex;
+
+}
+
+
+article {
+    
+}
+
+nav {
+    background-color: lightblue;
+    margin: 10px;
+    border-radius: 7px;
+    width: 80vw;
+}
+
+
+aside {
+    
+}
+article, aside {
+    background-color:orange ;
+    height: 1000px;
+    margin: 10px;
+    border-radius: 7px;
+    width: 250px;
+}
