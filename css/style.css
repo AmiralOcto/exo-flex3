@@ -10,11 +10,13 @@ header,footer {
 }
 
 
-article {
-    
+nav {
+    display: flex;
+    justify-content: flex-start;
 }
 
-nav {
+article {
+    display: flex;
     background-color: lightblue;
     margin: 10px;
     border-radius: 7px;
@@ -23,9 +25,9 @@ nav {
 
 
 aside {
-    
+    display: flex;
 }
-article, aside {
+nav, aside {
     background-color:orange ;
     height: 1000px;
     margin: 10px;
