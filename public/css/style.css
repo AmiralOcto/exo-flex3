@@ -11,26 +11,22 @@ header,footer {
 
 
 nav {
-    display: flex;
     justify-content: flex-start;
+    order: -1;
 }
 
 article {
-    display: flex;
-    background-color: lightblue;
+    background-color: cornflowerblue;
     margin: 10px;
     border-radius: 7px;
     width: 80vw;
 }
 
-
-aside {
-    display: flex;
-}
 nav, aside {
-    background-color:orange ;
+    background-color:coral ;
     height: 1000px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 7px;
     width: 250px;
 }
